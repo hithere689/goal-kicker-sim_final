@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#conditionSelect, #bettingSelect {
+    margin: 10px;
+}
+
+#conditionSelect label, #bettingSelect label {
+    margin: 0 10px;
+}
+
+#inputTable {
+    margin: 10px auto;
+    display: inline-block;
+}
+
+#inputTable table {
+    border-collapse: collapse;
+}
+
+#inputTable td {
+    padding: 5px;
+}
+
+#inputTable input {
+    width: 60px;
+}
+
+#controls {
+    margin: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#guessOptions {
+    margin: 10px;
+}
+
+#cards {
+    margin: 20px 0;
+}
+
+#top-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#bottom-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards img {
+    width: 100px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+#cards span {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#result, #stats {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#trialTable {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+#trialTable table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: "Segoe UI Symbol", Arial, sans-serif; /* For suit symbols */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+#pagination {
+    margin-top: 10px;
+}
+
+#pagination button {
+    padding: 5px 10px;
+}
+
+#pagination span {
+    margin: 0 10px;
+}
